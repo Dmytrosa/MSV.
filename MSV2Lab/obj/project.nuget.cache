@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "q5O6gONIotqXIXnqV7YAf8YJ0D/Pb/HAO1dX0Wf53v3DXVhDzgHkPSThPvAfTcFfV7nOQ9GEqtYjo4jcufvN6A==",
+  "dgSpecHash": "cge2HaAvGAEZit1uCrTUvHiw4rzRzyUYIdy4sa3ydytU/6JIhjg/3z+wgjuhEFxL/FreH5AvKNtnT+bou2g7LA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\source\\repos\\MSV2Lab\\MSV2Lab.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\moq\\4.18.4\\moq.4.18.4.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\nunit3testadapter\\4.4.2\\nunit3testadapter.4.4.2.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

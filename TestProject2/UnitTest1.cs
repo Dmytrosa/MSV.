@@ -1,6 +1,7 @@
 using NumericMethodsEquMSV;
 using NUnit.Framework;
 using System;
+using Moq;
 
 [TestFixture]
 public class MethodTests
@@ -117,4 +118,57 @@ public class MethodTests
     };
         Assert.That(results, Has.Exactly(4).EqualTo(-2.227288088464884d).Within(1e-1));
     }
+
+    [Test]
+    public void TestSomeMethod_WithMock()
+    {
+        var mockDataProvider = new Mock<IDataProvider>();
+        mockDataProvider.Setup(x => x.GetData()).Returns(21.0);
+
+        Method.DataProvider = mockDataProvider.Object;
+
+        double result = Method.SomeMethod();
+        Assert.AreEqual(21.0, result);
+
+        mockDataProvider.Verify(x => x.GetData(), Times.Once());
+    }
+
+    [Test]
+    public void TestSomeMethod_WithMock_ThrowsException()
+    {
+        var mockDataProvider = new Mock<IDataProvider>();
+        mockDataProvider.Setup(x => x.GetData()).Throws<InvalidOperationException>();
+
+        Method.DataProvider = mockDataProvider.Object;
+
+        Assert.Throws<InvalidOperationException>(() => Method.SomeMethod());
+
+        mockDataProvider.Verify(x => x.GetData(), Times.Once());
+    }
+
+    [Test]
+    public void TestUseDoSomething_WithSpy()
+    {
+        var someClassMock = new Mock<DataProvider> { CallBase = true };
+
+        someClassMock.Setup(x => x.GetData()).Returns(21.0);
+
+        double result = someClassMock.Object.UseGetData();
+
+        Assert.AreEqual(42, result);
+    }
+
+    [Test]
+    public void TestSomeMethodThatThrowsException_WithMock()
+    {
+        var mockDataProvider = new Mock<IDataProvider>();
+        mockDataProvider.Setup(x => x.GetData()).Returns(-1.0);
+        Method.DataProvider = mockDataProvider.Object;
+
+        Assert.Throws<InvalidOperationException>(() => Method.SomeMethodThatThrowsException());
+
+        mockDataProvider.Verify(x => x.GetData(), Times.Once());
+    }
+
+
 }

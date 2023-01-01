@@ -5,8 +5,26 @@ namespace NumericMethodsEquMSV
 {
     public static class Method
     {
+        public static IDataProvider DataProvider { get; set; } = new DataProvider();
+
+        public static double SomeMethodThatThrowsException()
+        {
+            double data = DataProvider.GetData();
+            if (data < 0)
+            {
+                throw new InvalidOperationException("Data is less than zero.");
+            }
+            return data * 2;
+        }
+
         public static double epsilon = 10e-5;
         public static int ApostRelax = 0, ApostNewton = 0;
+
+        public static double SomeMethod()
+        {
+            double data = DataProvider.GetData();
+            return data;
+        }
         public static double Fu(double x)
         {
             return (Math.Pow(x, 2) + 5 * Math.Sin(x) - 1); ;
