@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\MSV\bin\Debug\net6.0\MSV.exe
+C:\Users\Admin\source\repos\MSV\bin\Debug\net6.0\MSV.deps.json
+C:\Users\Admin\source\repos\MSV\bin\Debug\net6.0\MSV.runtimeconfig.json
+C:\Users\Admin\source\repos\MSV\bin\Debug\net6.0\MSV.dll
+C:\Users\Admin\source\repos\MSV\bin\Debug\net6.0\MSV.pdb
+C:\Users\Admin\source\repos\MSV\obj\Debug\net6.0\MSV.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\MSV\obj\Debug\net6.0\MSV.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\MSV\obj\Debug\net6.0\MSV.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\MSV\obj\Debug\net6.0\MSV.AssemblyInfo.cs
+C:\Users\Admin\source\repos\MSV\obj\Debug\net6.0\MSV.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MSV\obj\Debug\net6.0\MSV.dll
+C:\Users\Admin\source\repos\MSV\obj\Debug\net6.0\refint\MSV.dll
+C:\Users\Admin\source\repos\MSV\obj\Debug\net6.0\MSV.pdb
+C:\Users\Admin\source\repos\MSV\obj\Debug\net6.0\MSV.genruntimeconfig.cache
+C:\Users\Admin\source\repos\MSV\obj\Debug\net6.0\ref\MSV.dll
