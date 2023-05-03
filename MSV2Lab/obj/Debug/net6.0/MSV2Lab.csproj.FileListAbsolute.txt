@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\MSV2Lab\bin\Debug\net6.0\MSV2Lab.exe
+C:\Users\Admin\source\repos\MSV2Lab\bin\Debug\net6.0\MSV2Lab.deps.json
+C:\Users\Admin\source\repos\MSV2Lab\bin\Debug\net6.0\MSV2Lab.runtimeconfig.json
+C:\Users\Admin\source\repos\MSV2Lab\bin\Debug\net6.0\MSV2Lab.dll
+C:\Users\Admin\source\repos\MSV2Lab\bin\Debug\net6.0\MSV2Lab.pdb
+C:\Users\Admin\source\repos\MSV2Lab\obj\Debug\net6.0\MSV2Lab.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\MSV2Lab\obj\Debug\net6.0\MSV2Lab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\MSV2Lab\obj\Debug\net6.0\MSV2Lab.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\MSV2Lab\obj\Debug\net6.0\MSV2Lab.AssemblyInfo.cs
+C:\Users\Admin\source\repos\MSV2Lab\obj\Debug\net6.0\MSV2Lab.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MSV2Lab\obj\Debug\net6.0\MSV2Lab.dll
+C:\Users\Admin\source\repos\MSV2Lab\obj\Debug\net6.0\refint\MSV2Lab.dll
+C:\Users\Admin\source\repos\MSV2Lab\obj\Debug\net6.0\MSV2Lab.pdb
+C:\Users\Admin\source\repos\MSV2Lab\obj\Debug\net6.0\MSV2Lab.genruntimeconfig.cache
+C:\Users\Admin\source\repos\MSV2Lab\obj\Debug\net6.0\ref\MSV2Lab.dll

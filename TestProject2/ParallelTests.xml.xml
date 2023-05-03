@@ -1,0 +1,18 @@
+﻿<NUnit>
+	<TestRunner>
+		<TestAssemblies>
+			<TestAssembly path="Path\To\Your\TestAssembly.dll" />
+		</TestAssemblies>
+	</TestRunner>
+
+	<Settings>
+		<Setting name="NumberOfTestWorkers" value="4" />
+	</Settings>
+
+	<Filters>
+		<Include>
+			<Category name="Group1" />
+			<Category name="Group2" />
+		</Include>
+	</Filters>
+</NUnit>

@@ -1,0 +1,17 @@
+﻿<NUnit>
+	<TestRunner>
+		<TestAssemblies>
+			<TestAssembly path="Path\To\Your\TestAssembly.dll" />
+		</TestAssemblies>
+	</TestRunner>
+
+	<Filters>
+		<Include>
+			<Category name="Group1" />
+		</Include>
+		<Exclude>
+			<Category name="Group2" />
+		</Exclude>
+	</Filters>
+</NUnit>
+
