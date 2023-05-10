@@ -13,3 +13,15 @@ C:\Users\Admin\source\repos\MSV2Lab\obj\Debug\net6.0\refint\MSV2Lab.dll
 C:\Users\Admin\source\repos\MSV2Lab\obj\Debug\net6.0\MSV2Lab.pdb
 C:\Users\Admin\source\repos\MSV2Lab\obj\Debug\net6.0\MSV2Lab.genruntimeconfig.cache
 C:\Users\Admin\source\repos\MSV2Lab\obj\Debug\net6.0\ref\MSV2Lab.dll
+C:\Users\Admin\source\repos\MSV2Lab\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\Admin\source\repos\MSV2Lab\bin\Debug\net6.0\Moq.dll
+C:\Users\Admin\source\repos\MSV2Lab\bin\Debug\net6.0\System.Diagnostics.EventLog.dll
+C:\Users\Admin\source\repos\MSV2Lab\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\Admin\source\repos\MSV2Lab\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+C:\Users\Admin\source\repos\MSV2Lab\obj\Debug\net6.0\MSV2Lab.csproj.CopyComplete
+C:\Users\Admin\source\repos\MSV2Lab\bin\Debug\net6.0\NUnit3.TestAdapter.dll
+C:\Users\Admin\source\repos\MSV2Lab\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
+C:\Users\Admin\source\repos\MSV2Lab\bin\Debug\net6.0\nunit.engine.dll
+C:\Users\Admin\source\repos\MSV2Lab\bin\Debug\net6.0\nunit.engine.api.dll
+C:\Users\Admin\source\repos\MSV2Lab\bin\Debug\net6.0\nunit.engine.core.dll
+C:\Users\Admin\source\repos\MSV2Lab\bin\Debug\net6.0\testcentric.engine.metadata.dll
